@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic e-Book Store</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!--    Fav Icon    -->
+        <link rel="icon" type="image/png"
+         href="c:\Users\Lenovo\OneDrive\Desktop\website 1\photo\Screenshot 2025-05-14 164142.png"/>
+
+    <style>
+        body {
+            background-color: linear-gradient(135deg, #06444d 0%, #7ebbf0 100%);
+            color: rgb(2, 2, 2);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: smaller;
+            user-select: none; /* Mencegah pemilihan teks */
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 25;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 34px;
+        }
+
+        main {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .order-button {
+            background-color: #20B2AA; 
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 1em;
+            margin-top: 30px; /* Menambahkan jarak atas yang lebih besar */
+            display: inline-block; /* Agar tombol bisa memiliki margin */
+            position: relative;
+            transition: background-color 0.3s;
+        }
+
+        .order-button:hover {
+            background-color: #008B74; /* Warna lebih gelap saat hover */
+        }
+
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+            color: blue;
+        }
+
+        .product {
+            background-color: #20B2AA; /* Ijo tosca */
+            color: white;
+            margin: 5px;
+            padding: 15px;
+            border-radius: 19px;
+            width: 180px;
+            text-align: center;
+            cursor: pointer; /* Menunjukkan bahwa elemen dapat diklik */
+            transition: transform 0.2s; /* Efek transisi saat hover */
+        }
+
+        .product:hover {
+            transform: scale(1.05); /* Membesarkan produk saat hover */
+        }
+
+        .product img {
+            width: 85%; 
+            height: auto; /* Tinggi otomatis untuk menjaga rasio aspek */
+            border-radius: 5px; /* Sudut gambar dibulatkan */
+        }
+
+        footer {
+            text-align: center;
+            padding: 12px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+    <script>
+        // Mencegah klik kanan
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        // Mencegah penyalinan teks
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            alert("Penyalinan konten tidak diizinkan.");
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Islamic e-Book Store</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Selamat Datang di Islamic e-Book Store</h2>
+            <p>Temukan berbagai buku Islami yang menarik dan bermanfaat.</p>
+        </section>
+        
+        <section class="catalog">
+            <h3>
+            
+            </h3>
+            <div class="product" onclick="window.location.href='https://wa.me/message/NVQMBQTQK6HXF1'"> <!-- Ganti dengan link pemesanan untuk Buku 1 -->
+                <img src= "c:\Users\Lenovo\OneDrive\Desktop\website 1\photo\Screenshot 2025-10-23 092322.png" alt="DOA & DZIKIR"> <!-- Ganti URL dengan gambar buku 1 -->
+                <h3>KUMPULAN DOA DAN DZIKIR PAGI & PETANG</h3>
+                <p>JANGAN LUPA BERDOA !</p>
+                <p>Free</p>
+            </div>
+            <div class="product" onclick="window.location.href='https://wa.me/message/NVQMBQTQK6HXF1'"> <!-- Ganti dengan link pemesanan untuk Buku 2 -->
+                <img src="c:\Users\Lenovo\OneDrive\Desktop\website 1\photo\CMS.png" alt="STAY TUNED"> <!-- Ganti URL dengan gambar buku 2 -->
+                <h3>...</h3>
+                <p>COMING SOON</p>
+                <p></p>
+            </div>
+            <div class="product" onclick="window.location.href='https://wa.me/message/NVQMBQTQK6HXF1'"> <!-- Ganti dengan link pemesanan untuk Buku 3 -->
+                <img src="c:\Users\Lenovo\OneDrive\Desktop\website 1\photo\CMS.png" alt="STAY TUNED"> <!-- Ganti URL dengan gambar buku 3 -->
+                <h3>...</h3>
+                <p>COMING SOON</p>
+                <p></p>
+            </div>
+            <div class="product" onclick="window.location.href='https://wa.me/message/NVQMBQTQK6HXF1'"> <!-- Ganti dengan link pemesanan untuk Buku 4 -->
+                <img src="c:\Users\Lenovo\OneDrive\Desktop\website 1\photo\CMS.png" alt="STAY TUNED"> <!-- Ganti URL dengan gambar buku 4 -->
+                <h3>...</h3>
+                <p>COMING SOON</p>
+                <p></p>
+            </div>
+            <div class="product" onclick="window.location.href='https://wa.me/message/NVQMBQTQK6HXF1'"> <!-- Ganti dengan link pemesanan untuk Buku 5 -->
+                <img src="c:\Users\Lenovo\OneDrive\Desktop\website 1\photo\CMS.png" alt="STAY TUNED"> <!-- Ganti URL dengan gambar buku 5 -->
+                <h3>...</h3>
+                <p>COMING SOON</p>
+                <p></p>
+                </section>
+
+        <section>
+            <a href="https://wa.me/message/NVQMBQTQK6HXF1" class="order-button">Pesan Sekarang dan Warnai Harimu : ></a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Islamic e-Book Store by fatihhhh </p>
+    </footer>
+</body>
+
+</html>
